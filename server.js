@@ -6,4 +6,4 @@ var server = http.createServer(function (req, res){
 	st(req, res)  // else look in static files
 })
 
-server.listen(process.ENV.PORT || 5000)
+server.listen(process.env.PORT || 5000)
